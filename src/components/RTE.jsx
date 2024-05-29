@@ -18,6 +18,7 @@ export default function RTE({ name, control, label, defaultValue = "" }) {
                         licenseKey={conf.tinyMCEApiKey}
                         initialValue={defaultValue}
                         init={{
+                            license_key: 'gpl',
                             initialValue: defaultValue,
                             height: 500,
                             menubar: true,
